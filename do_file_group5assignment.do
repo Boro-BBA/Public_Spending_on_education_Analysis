@@ -1,10 +1,5 @@
-/*
-					Applied Econometrics - Assignment Group 5
-						Dataset: School_spending.dta
-
-Binya Benson Abe Boro
-M.A. Development Economics and International Studies
-Matrikel-Nr. 23621854
+/* Applied Econometrics
+Dataset: School_spending.dta
 */
 
 
@@ -12,10 +7,10 @@ Matrikel-Nr. 23621854
 clear all
 
 *** Setting working directory
-cd "/Users/benson/Desktop/Assignment_Group5"
+cd "/Users/benson/Desktop/applied econometrics"
 
-*** creating a logfile and saving it as group_5logfile in the result subfolder
-log using "results/group_5logfile", text replace
+*** creating and saving a logfile
+log using "results/educ_logfile", text replace
 
 *** loading the school_spending.dta dataset
 use "data/school_spending", clear
